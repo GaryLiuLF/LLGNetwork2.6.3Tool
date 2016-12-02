@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		186C23FE1DF16FB4008AE1E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 186C23FD1DF16FB4008AE1E3 /* main.m */; };
+		186C24011DF16FB5008AE1E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 186C24001DF16FB5008AE1E3 /* AppDelegate.m */; };
+		186C24041DF16FB5008AE1E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186C24031DF16FB5008AE1E3 /* ViewController.m */; };
+		186C24071DF16FB5008AE1E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186C24051DF16FB5008AE1E3 /* Main.storyboard */; };
+		186C24091DF16FB5008AE1E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186C24081DF16FB5008AE1E3 /* Assets.xcassets */; };
+		186C240C1DF16FB5008AE1E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186C240A1DF16FB5008AE1E3 /* LaunchScreen.storyboard */; };
+		186C24171DF16FB5008AE1E3 /* LLFNetWorkToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 186C24161DF16FB5008AE1E3 /* LLFNetWorkToolTests.m */; };
+		186C24221DF16FB5008AE1E3 /* LLFNetWorkToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 186C24211DF16FB5008AE1E3 /* LLFNetWorkToolUITests.m */; };
+		186C24321DF170F0008AE1E3 /* LLFNetWorkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 186C24311DF170F0008AE1E3 /* LLFNetWorkTool.m */; };
+		3B7861851688C91DBFEA8242 /* libPods-LLFNetWorkTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E76BBFAFA0441A1A83F6ED15 /* libPods-LLFNetWorkTool.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		186C24131DF16FB5008AE1E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 186C23F11DF16FB4008AE1E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 186C23F81DF16FB4008AE1E3;
+			remoteInfo = LLFNetWorkTool;
+		};
+		186C241E1DF16FB5008AE1E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 186C23F11DF16FB4008AE1E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 186C23F81DF16FB4008AE1E3;
+			remoteInfo = LLFNetWorkTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		186C23F91DF16FB4008AE1E3 /* LLFNetWorkTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLFNetWorkTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		186C23FD1DF16FB4008AE1E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		186C23FF1DF16FB5008AE1E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		186C24001DF16FB5008AE1E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		186C24021DF16FB5008AE1E3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		186C24031DF16FB5008AE1E3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		186C24061DF16FB5008AE1E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		186C24081DF16FB5008AE1E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		186C240B1DF16FB5008AE1E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		186C240D1DF16FB5008AE1E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		186C24121DF16FB5008AE1E3 /* LLFNetWorkToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLFNetWorkToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		186C24161DF16FB5008AE1E3 /* LLFNetWorkToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLFNetWorkToolTests.m; sourceTree = "<group>"; };
+		186C24181DF16FB5008AE1E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		186C241D1DF16FB5008AE1E3 /* LLFNetWorkToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLFNetWorkToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		186C24211DF16FB5008AE1E3 /* LLFNetWorkToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLFNetWorkToolUITests.m; sourceTree = "<group>"; };
+		186C24231DF16FB5008AE1E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		186C24301DF170F0008AE1E3 /* LLFNetWorkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLFNetWorkTool.h; sourceTree = "<group>"; };
+		186C24311DF170F0008AE1E3 /* LLFNetWorkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLFNetWorkTool.m; sourceTree = "<group>"; };
+		585631743295BDE8BA8CC43C /* Pods-LLFNetWorkTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLFNetWorkTool.release.xcconfig"; path = "Pods/Target Support Files/Pods-LLFNetWorkTool/Pods-LLFNetWorkTool.release.xcconfig"; sourceTree = "<group>"; };
+		5DF54A62182E7168173E0874 /* Pods-LLFNetWorkTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLFNetWorkTool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LLFNetWorkTool/Pods-LLFNetWorkTool.debug.xcconfig"; sourceTree = "<group>"; };
+		E76BBFAFA0441A1A83F6ED15 /* libPods-LLFNetWorkTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LLFNetWorkTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		186C23F61DF16FB4008AE1E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B7861851688C91DBFEA8242 /* libPods-LLFNetWorkTool.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186C240F1DF16FB5008AE1E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186C241A1DF16FB5008AE1E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		186C23F01DF16FB4008AE1E3 = {
+			isa = PBXGroup;
+			children = (
+				186C23FB1DF16FB4008AE1E3 /* LLFNetWorkTool */,
+				186C24151DF16FB5008AE1E3 /* LLFNetWorkToolTests */,
+				186C24201DF16FB5008AE1E3 /* LLFNetWorkToolUITests */,
+				186C23FA1DF16FB4008AE1E3 /* Products */,
+				9A27D77FADDE6427FDAEF2E6 /* Pods */,
+				D3A54C9A74DFBB8131F71239 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		186C23FA1DF16FB4008AE1E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				186C23F91DF16FB4008AE1E3 /* LLFNetWorkTool.app */,
+				186C24121DF16FB5008AE1E3 /* LLFNetWorkToolTests.xctest */,
+				186C241D1DF16FB5008AE1E3 /* LLFNetWorkToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		186C23FB1DF16FB4008AE1E3 /* LLFNetWorkTool */ = {
+			isa = PBXGroup;
+			children = (
+				186C242F1DF16FD1008AE1E3 /* LLFNetWorkTool */,
+				186C23FF1DF16FB5008AE1E3 /* AppDelegate.h */,
+				186C24001DF16FB5008AE1E3 /* AppDelegate.m */,
+				186C24021DF16FB5008AE1E3 /* ViewController.h */,
+				186C24031DF16FB5008AE1E3 /* ViewController.m */,
+				186C24051DF16FB5008AE1E3 /* Main.storyboard */,
+				186C24081DF16FB5008AE1E3 /* Assets.xcassets */,
+				186C240A1DF16FB5008AE1E3 /* LaunchScreen.storyboard */,
+				186C240D1DF16FB5008AE1E3 /* Info.plist */,
+				186C23FC1DF16FB4008AE1E3 /* Supporting Files */,
+			);
+			path = LLFNetWorkTool;
+			sourceTree = "<group>";
+		};
+		186C23FC1DF16FB4008AE1E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				186C23FD1DF16FB4008AE1E3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		186C24151DF16FB5008AE1E3 /* LLFNetWorkToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				186C24161DF16FB5008AE1E3 /* LLFNetWorkToolTests.m */,
+				186C24181DF16FB5008AE1E3 /* Info.plist */,
+			);
+			path = LLFNetWorkToolTests;
+			sourceTree = "<group>";
+		};
+		186C24201DF16FB5008AE1E3 /* LLFNetWorkToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				186C24211DF16FB5008AE1E3 /* LLFNetWorkToolUITests.m */,
+				186C24231DF16FB5008AE1E3 /* Info.plist */,
+			);
+			path = LLFNetWorkToolUITests;
+			sourceTree = "<group>";
+		};
+		186C242F1DF16FD1008AE1E3 /* LLFNetWorkTool */ = {
+			isa = PBXGroup;
+			children = (
+				186C24301DF170F0008AE1E3 /* LLFNetWorkTool.h */,
+				186C24311DF170F0008AE1E3 /* LLFNetWorkTool.m */,
+			);
+			name = LLFNetWorkTool;
+			sourceTree = "<group>";
+		};
+		9A27D77FADDE6427FDAEF2E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5DF54A62182E7168173E0874 /* Pods-LLFNetWorkTool.debug.xcconfig */,
+				585631743295BDE8BA8CC43C /* Pods-LLFNetWorkTool.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D3A54C9A74DFBB8131F71239 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E76BBFAFA0441A1A83F6ED15 /* libPods-LLFNetWorkTool.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		186C23F81DF16FB4008AE1E3 /* LLFNetWorkTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 186C24261DF16FB5008AE1E3 /* Build configuration list for PBXNativeTarget "LLFNetWorkTool" */;
+			buildPhases = (
+				46B42E2A1987454CDDC6B32D /* [CP] Check Pods Manifest.lock */,
+				186C23F51DF16FB4008AE1E3 /* Sources */,
+				186C23F61DF16FB4008AE1E3 /* Frameworks */,
+				186C23F71DF16FB4008AE1E3 /* Resources */,
+				5ACBADBD61F111E42E8106CA /* [CP] Embed Pods Frameworks */,
+				F574D483730BD487FF82C680 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LLFNetWorkTool;
+			productName = LLFNetWorkTool;
+			productReference = 186C23F91DF16FB4008AE1E3 /* LLFNetWorkTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		186C24111DF16FB5008AE1E3 /* LLFNetWorkToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 186C24291DF16FB5008AE1E3 /* Build configuration list for PBXNativeTarget "LLFNetWorkToolTests" */;
+			buildPhases = (
+				186C240E1DF16FB5008AE1E3 /* Sources */,
+				186C240F1DF16FB5008AE1E3 /* Frameworks */,
+				186C24101DF16FB5008AE1E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				186C24141DF16FB5008AE1E3 /* PBXTargetDependency */,
+			);
+			name = LLFNetWorkToolTests;
+			productName = LLFNetWorkToolTests;
+			productReference = 186C24121DF16FB5008AE1E3 /* LLFNetWorkToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		186C241C1DF16FB5008AE1E3 /* LLFNetWorkToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 186C242C1DF16FB5008AE1E3 /* Build configuration list for PBXNativeTarget "LLFNetWorkToolUITests" */;
+			buildPhases = (
+				186C24191DF16FB5008AE1E3 /* Sources */,
+				186C241A1DF16FB5008AE1E3 /* Frameworks */,
+				186C241B1DF16FB5008AE1E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				186C241F1DF16FB5008AE1E3 /* PBXTargetDependency */,
+			);
+			name = LLFNetWorkToolUITests;
+			productName = LLFNetWorkToolUITests;
+			productReference = 186C241D1DF16FB5008AE1E3 /* LLFNetWorkToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		186C23F11DF16FB4008AE1E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = LLF;
+				TargetAttributes = {
+					186C23F81DF16FB4008AE1E3 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 27CBEDY8VV;
+						ProvisioningStyle = Automatic;
+					};
+					186C24111DF16FB5008AE1E3 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 27CBEDY8VV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 186C23F81DF16FB4008AE1E3;
+					};
+					186C241C1DF16FB5008AE1E3 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 27CBEDY8VV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 186C23F81DF16FB4008AE1E3;
+					};
+				};
+			};
+			buildConfigurationList = 186C23F41DF16FB4008AE1E3 /* Build configuration list for PBXProject "LLFNetWorkTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 186C23F01DF16FB4008AE1E3;
+			productRefGroup = 186C23FA1DF16FB4008AE1E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				186C23F81DF16FB4008AE1E3 /* LLFNetWorkTool */,
+				186C24111DF16FB5008AE1E3 /* LLFNetWorkToolTests */,
+				186C241C1DF16FB5008AE1E3 /* LLFNetWorkToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		186C23F71DF16FB4008AE1E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186C240C1DF16FB5008AE1E3 /* LaunchScreen.storyboard in Resources */,
+				186C24091DF16FB5008AE1E3 /* Assets.xcassets in Resources */,
+				186C24071DF16FB5008AE1E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186C24101DF16FB5008AE1E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186C241B1DF16FB5008AE1E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46B42E2A1987454CDDC6B32D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5ACBADBD61F111E42E8106CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LLFNetWorkTool/Pods-LLFNetWorkTool-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F574D483730BD487FF82C680 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LLFNetWorkTool/Pods-LLFNetWorkTool-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		186C23F51DF16FB4008AE1E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186C24041DF16FB5008AE1E3 /* ViewController.m in Sources */,
+				186C24321DF170F0008AE1E3 /* LLFNetWorkTool.m in Sources */,
+				186C24011DF16FB5008AE1E3 /* AppDelegate.m in Sources */,
+				186C23FE1DF16FB4008AE1E3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186C240E1DF16FB5008AE1E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186C24171DF16FB5008AE1E3 /* LLFNetWorkToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186C24191DF16FB5008AE1E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186C24221DF16FB5008AE1E3 /* LLFNetWorkToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		186C24141DF16FB5008AE1E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 186C23F81DF16FB4008AE1E3 /* LLFNetWorkTool */;
+			targetProxy = 186C24131DF16FB5008AE1E3 /* PBXContainerItemProxy */;
+		};
+		186C241F1DF16FB5008AE1E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 186C23F81DF16FB4008AE1E3 /* LLFNetWorkTool */;
+			targetProxy = 186C241E1DF16FB5008AE1E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		186C24051DF16FB5008AE1E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				186C24061DF16FB5008AE1E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		186C240A1DF16FB5008AE1E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				186C240B1DF16FB5008AE1E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		186C24241DF16FB5008AE1E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		186C24251DF16FB5008AE1E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		186C24271DF16FB5008AE1E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DF54A62182E7168173E0874 /* Pods-LLFNetWorkTool.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 27CBEDY8VV;
+				INFOPLIST_FILE = LLFNetWorkTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.winsafe.www.LLFNetWorkTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		186C24281DF16FB5008AE1E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 585631743295BDE8BA8CC43C /* Pods-LLFNetWorkTool.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 27CBEDY8VV;
+				INFOPLIST_FILE = LLFNetWorkTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.winsafe.www.LLFNetWorkTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		186C242A1DF16FB5008AE1E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 27CBEDY8VV;
+				INFOPLIST_FILE = LLFNetWorkToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.winsafe.www.LLFNetWorkToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LLFNetWorkTool.app/LLFNetWorkTool";
+			};
+			name = Debug;
+		};
+		186C242B1DF16FB5008AE1E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 27CBEDY8VV;
+				INFOPLIST_FILE = LLFNetWorkToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.winsafe.www.LLFNetWorkToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LLFNetWorkTool.app/LLFNetWorkTool";
+			};
+			name = Release;
+		};
+		186C242D1DF16FB5008AE1E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 27CBEDY8VV;
+				INFOPLIST_FILE = LLFNetWorkToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.winsafe.www.LLFNetWorkToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LLFNetWorkTool;
+			};
+			name = Debug;
+		};
+		186C242E1DF16FB5008AE1E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 27CBEDY8VV;
+				INFOPLIST_FILE = LLFNetWorkToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.winsafe.www.LLFNetWorkToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LLFNetWorkTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		186C23F41DF16FB4008AE1E3 /* Build configuration list for PBXProject "LLFNetWorkTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186C24241DF16FB5008AE1E3 /* Debug */,
+				186C24251DF16FB5008AE1E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		186C24261DF16FB5008AE1E3 /* Build configuration list for PBXNativeTarget "LLFNetWorkTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186C24271DF16FB5008AE1E3 /* Debug */,
+				186C24281DF16FB5008AE1E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		186C24291DF16FB5008AE1E3 /* Build configuration list for PBXNativeTarget "LLFNetWorkToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186C242A1DF16FB5008AE1E3 /* Debug */,
+				186C242B1DF16FB5008AE1E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		186C242C1DF16FB5008AE1E3 /* Build configuration list for PBXNativeTarget "LLFNetWorkToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186C242D1DF16FB5008AE1E3 /* Debug */,
+				186C242E1DF16FB5008AE1E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 186C23F11DF16FB4008AE1E3 /* Project object */;
+}
