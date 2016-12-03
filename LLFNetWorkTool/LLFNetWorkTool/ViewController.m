@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "LLFNetWorkTool.h"
 
 @interface ViewController ()
 
@@ -20,10 +21,20 @@
 }
 
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+    NSDictionary *param = @{}; // 添加参数
+    NSString *url = @"";
+    
+    [LLFNetWorkTool post:url
+                   param:param
+                 success:^(NSDictionary *responseDic) {
+                     NSLog(@"%@", responseDic);
+                 } failure:^(NSError *error) {
+                     NSLog(@"%@",error);
+                 }];
 }
-
 
 @end
